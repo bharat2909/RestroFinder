@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="bold"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/tvGreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/secularone_regular"
+        android:text="@string/Greet"
+        android:textColor="#191818"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvques1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/secularone_regular"
+        android:text="What is your,"
+        android:textColor="#1E1C1C"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreet" />
+
+    <TextView
+        android:id="@+id/tvques2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:fontFamily="@font/secularone_regular"
+        android:text="favorite Dish?"
+        android:textColor="#1E1C1C"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvques1" />
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_search_bar"
+        android:ems="10"
+        android:drawableLeft="@drawable/ic_baseline_search_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/hint"
+        app:layout_constraintTop_toBottomOf="@+id/tvques2" />
+
+    <TextView
+        android:id="@+id/tvTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/lora_variablefont_wght"
+        android:text="@string/top"
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSearch" />
+
+    <TextView
+        android:id="@+id/tvSeeMore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:fontFamily="@font/lora_variablefont_wght"
+        android:text="@string/seeMore"
+        android:textColor="@color/purple_500"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSearch" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTop"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/siv1"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/burger"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder" />
+
+
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/burger"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/siv2"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/rice"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder" />
+
+
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/rice"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/siv3"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/pizza1"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pizza"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/siv4"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/indian"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder" />
+
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/indian"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="20dp">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/siv5"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/biryani"
+                    app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularBorder" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biryani"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+<!--    <androidx.viewpager.widget.ViewPager-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="149dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:clipToPadding="false"-->
+<!--        android:overScrollMode="never"-->
+<!--        android:padding="10dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />-->
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siv6"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularCorner" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/siv7"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/pic2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siv6"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.CircularCorner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

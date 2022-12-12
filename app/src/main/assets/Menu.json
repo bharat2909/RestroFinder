@@ -1,0 +1,328 @@
+ [
+    {
+      "restaurantId": 1,
+      "id": 11,
+      "categories": [
+        {
+          "id": "26576",
+          "name": "Chicken",
+          "m_id": 11,
+          "menu_items": [
+            {
+              "r_id": 1,
+              "id": "94298",
+              "name": "3 Chicken Wings",
+              "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+              "price": "250.00",
+              "c_id": "26576"
+            },
+            {
+              "r_id": 1,
+              "id": "94301",
+              "name": "Chicken Livers and Portuguese Roll",
+              "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+              "price": "250.00",
+              "c_id": "26576"
+            }
+
+          ]
+        },
+        {
+
+          "id": "26568",
+          "name": "Peri-peri chicken",
+          "m_id": 11,
+          "menu_items": [
+            {
+              "r_id": 1,
+              "id": "94349",
+              "name": "1/4 Chicken",
+              "description": "Quarter Chicken Marinated with PERi-PERi Sauce and Grilled",
+              "price": "385.00",
+              "c_id": "26568"
+            },
+            {
+              "r_id": 1,
+              "id": "94352",
+              "name": "1/2 Chicken",
+              "description": "Half Chicken Marinated with PERi-PERi Sauce and Grilled",
+              "price": "685.00",
+              "c_id": "26568"
+            }
+          ]
+        }
+      ]
+    },
+   {
+     "restaurantId": 2,
+     "id": 12,
+     "categories": [
+       {
+         "id": "26577",
+         "name": "Biryani",
+         "m_id": 12,
+         "menu_items": [
+           {
+             "r_id": 2,
+             "id": "94298",
+             "name": "Chicken Biryani",
+             "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+             "price": "250.00",
+             "c_id": "26577"
+           },
+           {
+             "r_id": 2,
+             "id": "94301",
+             "name": "Mutton Biryani",
+             "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+             "price": "250.00",
+             "c_id": "26577"
+           }
+
+         ]
+       },
+       {
+
+         "id": "26588",
+         "name": "Burger",
+         "m_id": 12,
+         "menu_items": [
+           {
+             "r_id": 2,
+             "id": "94350",
+             "name": "Chicken Burger",
+             "description": "Chicken Burger Marinated with PERi-PERi Sauce and Grilled",
+             "price": "85.00",
+             "c_id": "26588"
+           },
+           {
+             "r_id": 2,
+             "id": "94353",
+             "name": "Cheese Burger",
+             "description": "Cheese Burger",
+             "price": "65.00",
+             "c_id": "26588"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "restaurantId": 3,
+     "id": 13,
+     "categories": [
+       {
+         "id": "26578",
+         "name": "Pizza",
+         "m_id": 13,
+         "menu_items": [
+           {
+             "r_id": 3,
+             "id": "94299",
+             "name": "Chicken pizza",
+             "description": "Tender, Spicy and Juicy. Original or Peri-Crusted",
+             "price": "250.00",
+             "c_id": "26578"
+           },
+           {
+             "r_id": 3,
+             "id": "94301",
+             "name": "Cheese Pizza",
+             "description": "Chicken Livers Topped with PERi-PERi Sauce, Served with A Roll To Soak Up The Sauce",
+             "price": "250.00",
+             "c_id": "26578"
+           }
+
+         ]
+       },
+       {
+
+         "id": "26589",
+         "name": "Burger",
+         "m_id": 13,
+         "menu_items": [
+           {
+             "r_id": 3,
+             "id": "94350",
+             "name": "Chicken Burger",
+             "description": "Chicken Burger Marinated with PERi-PERi Sauce and Grilled",
+             "price": "85.00",
+             "c_id": "26589"
+           },
+           {
+             "r_id": 3,
+             "id": "94353",
+             "name": "Cheese Burger",
+             "description": "Cheese Burger",
+             "price": "65.00",
+             "c_id": "26589"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "restaurantId": 4,
+     "id": 14,
+     "categories": [
+       {
+         "id": "26558",
+         "name": "Rice",
+         "m_id": 14,
+         "menu_items": [
+           {
+             "r_id": 4,
+             "id": "94300",
+             "name": "Fried Rice",
+             "description": "RIce with Manchurian",
+             "price": "150.00",
+             "c_id": "26558"
+           },
+           {
+             "r_id": 4,
+             "id": "94302",
+             "name": "Noodles",
+             "description": "Noodles with lassagnia",
+             "price": "100.00",
+             "c_id": "26558"
+           }
+
+         ]
+       },
+       {
+
+         "id": "26489",
+         "name": "Salad",
+         "m_id": 14,
+         "menu_items": [
+           {
+             "r_id": 4,
+             "id": "94351",
+             "name": "Green Salad",
+             "description": "Green Vegetable salad",
+             "price": "85.00",
+             "c_id": "26489"
+           },
+           {
+             "r_id":4,
+             "id": "94354",
+             "name": "Palak Salad",
+             "description": "Salad with Palak recipe",
+             "price": "65.00",
+             "c_id": "26489"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "restaurantId": 5,
+     "id": 15,
+     "categories": [
+       {
+         "id": "27558",
+         "name": "Protien Rich",
+         "m_id": 15,
+         "menu_items": [
+           {
+             "r_id": 5,
+             "id": "95300",
+             "name": "Lobster",
+             "description": "grilled lobster with peri peri flavor added",
+             "price": "450.00",
+             "c_id": "27558"
+           },
+           {
+             "r_id": 5,
+             "id": "95302",
+             "name": "Manchurian",
+             "description": "Preserve of Manchurian",
+             "price": "100.00",
+             "c_id": "27558"
+           }
+
+         ]
+       },
+       {
+
+         "id": "27489",
+         "name": "Hot Items",
+         "m_id": 15,
+         "menu_items": [
+           {
+             "r_id": 5,
+             "id": "95351",
+             "name": "Soup",
+             "description": "Tomato Soup",
+             "price": "85.00",
+             "c_id": "27489"
+           },
+           {
+             "r_id":5,
+             "id": "95354",
+             "name": "Corn",
+             "description": "Cheese corn Pocket",
+             "price": "65.00",
+             "c_id": "27489"
+           }
+         ]
+       }
+     ]
+   },
+   {
+     "restaurantId": 6,
+     "id": 16,
+     "categories": [
+       {
+         "id": "27258",
+         "name": "Coffee",
+         "m_id": 16,
+         "menu_items": [
+           {
+             "r_id": 6,
+             "id": "95200",
+             "name": "Latte",
+             "description": "Coffee with added sugar",
+             "price": "450.00",
+             "c_id": "27258"
+           },
+           {
+             "r_id": 6,
+             "id": "95202",
+             "name": "Capachino",
+             "description": "Light coffee",
+             "price": "100.00",
+             "c_id": "27258"
+           }
+
+         ]
+       },
+       {
+
+         "id": "27289",
+         "name": "Tea",
+         "m_id": 16,
+         "menu_items": [
+           {
+             "r_id": 6,
+             "id": "95251",
+             "name": "Masala Tea",
+             "description": "Tea",
+             "price": "85.00",
+             "c_id": "27289"
+           },
+           {
+             "r_id":6,
+             "id": "95254",
+             "name": "Elaichi Tea",
+             "description": "Added flavor of Elaichi",
+             "price": "65.00",
+             "c_id": "27289"
+           }
+         ]
+       }
+     ]
+   }
+
+
+  ]

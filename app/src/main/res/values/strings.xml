@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Restro Finder</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Greet">HI, Bharat!</string>
+    <string name="what">What is Your</string>
+    <string name="fav">favorite Dish</string>
+    <string name="hint">Restaurant or Dish...</string>
+    <string name="top">Top Categories</string>
+    <string name="seeMore">See More</string>
+    <string name="burger">Burger</string>
+    <string name="pizza">Pizza</string>
+    <string name="indian">Indian</string>
+    <string name="rice">Rice</string>
+    <string name="biryani">Biryani</string>
+</resources>
