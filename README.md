@@ -13,5 +13,5 @@ Glide, Gson , Material Design , Coroutines, Architectural Components.
 
 Screenshots:  
 
-https://github.com/bharat2909/RestroFinder/issues/1#issue-1491668542
+
 
