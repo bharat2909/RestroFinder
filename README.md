@@ -13,5 +13,11 @@ Glide, Gson , Material Design , Coroutines, Architectural Components.
 
 Screenshots:  
 
+![SS1](https://user-images.githubusercontent.com/52295247/207039904-bce3ad73-39b9-4216-aa6c-a1d3430dfe15.jpeg)
+![SS2](https://user-images.githubusercontent.com/52295247/207039918-1d677e23-2f93-4920-9885-f8a895d0e750.jpeg)
+![SS3](https://user-images.githubusercontent.com/52295247/207039939-d311fa95-7d05-470a-9b4a-60d5c37c8302.jpeg)
+![SS4](https://user-images.githubusercontent.com/52295247/207039950-154f8336-7f4a-4111-8d83-52deab4df43f.jpeg)
+
+
 
 
